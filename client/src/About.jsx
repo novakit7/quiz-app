@@ -33,7 +33,6 @@ export default function About() {
                 <li className="list-group-item text-dark">🧠 10 questions per quiz</li>
                 <li className="list-group-item text-dark">⏱️ 30-second timer</li>
                 <li className="list-group-item text-dark">📊 Instant score & grading</li>
-                <li className="list-group-item text-dark">📱 Responsive design</li>
               </ul>
 
               {/* Tech Stack */}
@@ -43,15 +42,7 @@ export default function About() {
                 <span className="badge bg-light text-dark border">Bootstrap</span>
                 <span className="badge bg-light text-dark border">JavaScript</span>
                 <span className="badge bg-light text-dark border">React Router</span>
-                <span className="badge bg-light text-dark border">Trivia API</span>
               </div>
-
-              {/* Developer */}
-              <h4 className="fw-bold">Developer</h4>
-              <p>
-                This project was built as a hands-on learning experience to
-                explore frontend development, API integration, and UI design.
-              </p>
 
               {/* Button */}
               <div className="text-center mt-4">
