@@ -1,7 +1,8 @@
 .quiz-container {
   max-width: 500px;
-  margin-top: 30vh;
+  margin-top: 18vh;
   padding: 20px;
+  margin-left:40vw;
 }
 
 .quiz-btn {
