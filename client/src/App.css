@@ -82,3 +82,142 @@
   position: relative;
   bottom: 15vh;
 }
+
+
+/* HOME */
+
+.h-homes {
+  width: 100vw;
+  height: 100vh;
+}
+.h-middle {
+  position: absolute;
+  left: 18vw;
+  top:17vh;
+
+  width: 70vw;
+  height: 80vh;
+
+  display: flex;
+  gap: 30px;
+}
+
+/* Profile section */
+.h-profilename {
+  flex: 1;
+  padding: 30px;
+  border-radius: 20px;
+ background-image: url("./assets/image.png");
+ background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  transition: all 0.3s ease;  
+  border:1px solid white;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+ 
+  color: #fff;
+}
+.h-profilename:hover{
+    transform: translateX(6px);
+    opacity:1;
+}
+.h-profilename:active{
+    transform: scaleX(.99);
+}
+
+/* Text */
+.nameing {
+  opacity: 0.7;
+  margin-bottom: 10px;
+   transition: all 0.3s ease;  
+
+}
+.h-profilename:hover .nameing {
+  opacity: 1;
+}
+.h-profilename h2 {
+  font-size: 38px;
+}
+
+.h-profilename p {
+  font-size: 18px;
+  opacity: 0.8;
+  margin-top: 15px;
+}
+.h-random{
+  
+    width:30vw;
+    height: 0vh;
+   
+}
+.h-catgories{
+    position:relative;
+    top:35vh;
+    color: #0a1723;
+    opacity:.8;
+      font-style: italic;
+
+}
+h-profilename:hover .h-catgories{
+  opacity: 1;
+}
+
+
+/* Thoughts section */
+.h-thoughts {
+  width: 300px;
+}
+
+/* Quote box */
+.quote-box {
+  padding: 25px;
+  border-radius: 20px;
+ position :relative;
+ top:30vh;
+ left:5vw;
+  background: linear-gradient(135deg,rgba(20, 30, 80, 0.6),rgba(50, 100, 180, 0.5));
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  transition: all 0.3s ease;  
+  border: 1px solid white;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+
+ color:white;
+  text-align: center;
+}
+
+.quote-box h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.quote-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  opacity: 0.85;
+}
+.quote-box:hover{
+     transform: translateX(6px);
+    opacity:1;
+    
+}
+.quote-box:hover .quote-text{ opacity:1;}
+
+/* Button */
+.quote-box button {
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+
+  background: linear-gradient(135deg, #4facfe, #00c6ff);
+  color: white;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.quote-box button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 198, 255, 0.4);
+}
