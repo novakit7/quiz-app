@@ -1,0 +1,33 @@
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY GRADIENT */
+body {
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+
+  background: linear-gradient(
+    135deg,
+    #1a0b2e,
+    #2a0f4f,
+    #4b1d6b,
+    #7b2cbf,
+    #c9184a
+  );
+
+  background-size: 300% 300%;
+  animation: gradientFlow 12s ease infinite;
+
+  color: #f5eaff;
+}
+
+/* ANIMATION */
+@keyframes gradientFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

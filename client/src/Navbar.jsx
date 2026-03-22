@@ -7,7 +7,7 @@ function Navbar() {
         
         {/* Logo / Brand */}
         <Link className="navbar-brand" to="/">
-          QuizApp
+          <i className="fa-brands fa-quinscape"></i>QuizApp
         </Link>
 
         {/* Toggle button (mobile) */}
@@ -25,15 +25,11 @@ function Navbar() {
           <ul className="navbar-nav ms-auto">
             
             <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
+              <Link className="nav-link" to="/"><i className="fa-solid fa-house"></i>Home</Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/quiz">Quiz</Link>
-            </li>
-
-            <li className="nav-item">
-              <Link className="nav-link" to="/result">Result</Link>
+              <Link className="nav-link" to="/about"><i className="fa-solid fa-circle-info"></i>About Us</Link>
             </li>
 
           </ul>

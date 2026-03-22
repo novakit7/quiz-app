@@ -1,0 +1,50 @@
+.app-footer {
+  margin-left: 0vw;
+  margin-top: 96vh;
+  padding: 30px 20px;
+
+  background: rgba(45, 17, 17, 0.08);
+  backdrop-filter: blur(14px);
+
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  color: #9280a3;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-title {
+  color: #1a0213;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.footer-links span {
+  cursor: pointer;
+  color: #781ad0;
+  transition: 0.3s;
+}
+
+.footer-links span:hover {
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.footer-copy {
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
